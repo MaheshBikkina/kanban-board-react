@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: 'kanban-board-react',
+  base: '/kanban-board-react/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
